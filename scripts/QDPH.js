@@ -1,5 +1,16 @@
 import * as mc from "@minecraft/server"
-const { world, system } = mc
+const { world, system } = mc;
+
+// About the project
+
+// QIDB - QUICK Dynamic Property Handler
+// GitHub:          https://github.com/Carchi777/Quick-Dynamic-Property-Handler
+// Discord:         https://discord.com/channels/523663022053392405/1382072758938112120
+
+// Made by Carchi77
+// My Github:       https://github.com/Carchi777
+// My Discord:      https://discordapp.com/users/985593016867778590
+
 
 export class QDPH {
     #cache
