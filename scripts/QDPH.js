@@ -23,6 +23,9 @@ export class QDPH {
             world.setDynamicProperties(Object.fromEntries(this.#cache.entries()))
         })
     }
+    save() {
+        world.setDynamicProperties(Object.fromEntries(this.#cache.entries()))
+    }
     /**
      * @remarks Sets a specified dynamic property to a value.
      * @param {string} key The identifier of the dynamic property.
